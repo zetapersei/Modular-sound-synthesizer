@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "44b73157-a694-4bbe-87c0-2fe846cbb8a7")
+	(paper "A3")
+	(title_block
+		(title "VCA  Voltage Control Amplifier")
+		(date "2025-07-17")
+		(rev "0.1")
+	)
+	(lib_symbols)
+)
