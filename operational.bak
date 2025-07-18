@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at -7.62 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 22.86 -33.02 0)
+			(at 30.48 -31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "LM1496_0_1"
 			(rectangle
-				(start -6.3754 -1.27)
-				(end -6.35 -29.21)
+				(start -15.2654 -1.27)
+				(end -15.24 -29.21)
 				(stroke
 					(width 0)
 					(type default)
@@ -62,8 +62,8 @@
 				)
 			)
 			(rectangle
-				(start -6.35 -1.2446)
-				(end 16.51 -1.27)
+				(start -15.24 -1.2446)
+				(end 21.59 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -73,8 +73,8 @@
 				)
 			)
 			(rectangle
-				(start -6.35 -29.1973)
-				(end 16.51 -29.2227)
+				(start -15.24 -29.1973)
+				(end 21.59 -29.2227)
 				(stroke
 					(width 0)
 					(type default)
@@ -84,8 +84,8 @@
 				)
 			)
 			(rectangle
-				(start 16.4846 -1.27)
-				(end 16.51 -29.21)
+				(start 21.5646 -1.27)
+				(end 21.59 -29.21)
 				(stroke
 					(width 0)
 					(type default)
@@ -96,17 +96,18 @@
 			)
 		)
 		(symbol "LM1496_1_1"
-			(pin input line
-				(at -6.35 -3.81 180)
+			(pin no_connect line
+				(at -15.24 -5.08 0)
 				(length 2.54)
-				(name "Signal_In+"
+				(hide yes)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -115,43 +116,7 @@
 				)
 			)
 			(pin input line
-				(at -6.35 -7.62 180)
-				(length 2.54)
-				(name "Gain_Adjust"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -11.43 180)
-				(length 2.54)
-				(name "Gain_Adjust"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -15.24 180)
+				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "Signal_In_-"
 					(effects
@@ -169,7 +134,115 @@
 				)
 			)
 			(pin input line
-				(at -6.35 -19.05 180)
+				(at -15.24 -13.97 0)
+				(length 2.54)
+				(name "Signal_In+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -29.21 90)
+				(length 2.54)
+				(name "Car_In_+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -29.21 90)
+				(length 2.54)
+				(name "Car_In_-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -1.27 270)
+				(length 2.54)
+				(name "Gain_Adj"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 -29.21 90)
+				(length 2.54)
+				(name "Car_In_-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -1.27 270)
+				(length 2.54)
+				(name "Gain_Adj"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 -1.27 270)
 				(length 2.54)
 				(name "Bias"
 					(effects
@@ -186,44 +259,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -6.35 -22.86 180)
-				(length 2.54)
-				(name "Output_+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -26.67 180)
-				(length 2.54)
-				(name "Carrier_Input_+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 16.51 -3.81 0)
+				(at 11.43 -29.21 90)
 				(length 2.54)
 				(name "V__-"
 					(effects
@@ -241,8 +278,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 16.51 -7.62 0)
+				(at 21.59 -7.62 180)
 				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -259,9 +297,9 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -11.43 0)
+				(at 21.59 -11.43 180)
 				(length 2.54)
-				(name "Output_-"
+				(name "Out_-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -276,35 +314,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 16.51 -15.24 0)
+			(pin output line
+				(at 21.59 -15.24 180)
 				(length 2.54)
-				(name ""
+				(name "Out_+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 16.51 -19.05 0)
-				(length 2.54)
-				(name "Carrier_Input_-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -313,9 +333,9 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -22.86 0)
+				(at 21.59 -22.86 180)
 				(length 2.54)
-				(name "Output_-"
+				(name "Out_-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -323,24 +343,6 @@
 					)
 				)
 				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 16.51 -26.67 0)
-				(length 2.54)
-				(name "Carrier_Input_-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
