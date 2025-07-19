@@ -3544,7 +3544,7 @@
 			)
 		)
 	)
-	(global_label "VCA_IN_SIG"
+	(global_label "VCA_IN_SIGNAL"
 		(shape input)
 		(at 127 123.19 180)
 		(fields_autoplaced yes)
@@ -3554,9 +3554,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a1a48cce-3f67-49cb-b26f-ad58db5ead36")
+		(uuid "b9cbec11-d30f-4dff-956e-76c2b51b795d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.6128 123.19 0)
+			(at 110.1656 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,10 +5290,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "bdc91c1d-36c3-4df2-a056-a4de7d4093a0")
+			(uuid "bdc91c1d-36c3-4df2-a056-a4de7d4093a1")
 		)
 		(pin "1"
-			(uuid "63b0a719-af32-471f-a317-29f653f7c32b")
+			(uuid "63b0a719-af32-471f-a317-29f653f7c32c")
 		)
 		(instances
 			(project "analog_synth"
@@ -5511,10 +5511,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "bdc91c1d-36c3-4df2-a056-a4de7d4093a0")
+			(uuid "bdc91c1d-36c3-4df2-a056-a4de7d4093a2")
 		)
 		(pin "1"
-			(uuid "63b0a719-af32-471f-a317-29f653f7c32b")
+			(uuid "63b0a719-af32-471f-a317-29f653f7c32d")
 		)
 		(instances
 			(project "analog_synth"

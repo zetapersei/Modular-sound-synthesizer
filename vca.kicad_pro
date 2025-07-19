@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "analog_synth.kicad_pro",
+    "filename": "vca.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -485,7 +485,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "vca.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
