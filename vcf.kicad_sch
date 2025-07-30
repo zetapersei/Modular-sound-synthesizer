@@ -2548,7 +2548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 179.578 186.69 90)
 			(effects
 				(font
@@ -2615,7 +2615,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 124.46 150.368 90)
 			(effects
 				(font
@@ -2749,7 +2749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 213.36 124.46 0)
 			(effects
 				(font
@@ -2935,7 +2935,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 193.04 150.368 90)
 			(effects
 				(font
@@ -3068,7 +3068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 156.21 192.532 90)
 			(effects
 				(font
@@ -3136,7 +3136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 302.26 189.23 0)
 			(effects
 				(font
@@ -3305,7 +3305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 156.21 197.612 90)
 			(effects
 				(font
@@ -3374,7 +3374,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 208.28 180.34 0)
 			(effects
 				(font
@@ -3444,7 +3444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 169.418 186.69 90)
 			(effects
 				(font
@@ -3511,7 +3511,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 124.46 159.258 90)
 			(effects
 				(font
@@ -3579,7 +3579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -3665,7 +3665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 298.45 158.75 0)
 			(effects
 				(font
@@ -3769,7 +3769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 212.09 96.52 0)
 			(effects
 				(font
@@ -3830,6 +3830,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 254.635 151.13 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb3f8b92-2b4f-4ccc-906f-e7a77952f1d6")
+		(property "Reference" "U9"
+			(at 252.73 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM324"
+			(at 252.73 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 253.365 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 255.905 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 254.635 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "badd8363-da1c-4f97-ac2c-b76d736d489c")
+		)
+		(pin "5"
+			(uuid "913a032e-e754-4ba0-bfe3-fe1e33cc3124")
+		)
+		(pin "2"
+			(uuid "e7fec747-aeec-4e3b-8db6-177ba3e9283b")
+		)
+		(pin "13"
+			(uuid "2c386fe9-b26f-4b1e-b256-e94c5bbd7ce6")
+		)
+		(pin "6"
+			(uuid "94af080f-f590-4861-853d-38da6bbfd484")
+		)
+		(pin "10"
+			(uuid "f1dbc064-f5b5-4c7b-b07f-576c223583f5")
+		)
+		(pin "12"
+			(uuid "86c875c0-8523-4bdb-aa88-8b8521653324")
+		)
+		(pin "9"
+			(uuid "77882a58-ff59-46ed-8bcd-9587b6d3a859")
+		)
+		(pin "11"
+			(uuid "7afe6160-f766-4f86-9f5c-fa8db7fa4f9b")
+		)
+		(pin "3"
+			(uuid "ab813d1f-a17d-432d-9a22-4acfadb60a73")
+		)
+		(pin "14"
+			(uuid "a858a110-9eb2-4c51-80cc-ac4ec29467d0")
+		)
+		(pin "1"
+			(uuid "5e902512-08c1-42c5-bbd4-3024c289c725")
+		)
+		(pin "7"
+			(uuid "07122ebf-ded1-487e-9509-b92456f2ff60")
+		)
+		(pin "8"
+			(uuid "34789053-6f3a-4168-b2b3-cb63401667f4")
+		)
+		(instances
+			(project ""
+				(path "/ce123c18-2cf1-4c4e-87f3-498e0feabd95/3b667bbc-cd14-4848-b89b-2f70a2bfcac1"
+					(reference "U9")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 124.46 166.37 90)
 		(unit 1)
@@ -3854,7 +3960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 124.46 168.148 90)
 			(effects
 				(font
@@ -3922,7 +4028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 260.35 185.42 0)
 			(effects
 				(font
@@ -4025,7 +4131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 152.4 150.368 90)
 			(effects
 				(font
