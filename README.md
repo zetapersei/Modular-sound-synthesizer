@@ -1,45 +1,46 @@
-# Sintetizzatore analogico modulare
+# Analog Modular Synthesizer
 
-Progetto di un sintetizzatore analogico modulare ispirato all'architettura dei
-sintetizzatori classici, come quelli della tradizione Moog. Nasce da un mio
-progetto personale a cui ho lavorato tra il 1978 e il 1980; gli schemi
-conservano quell'idea e sono stati raccolti e ridisegnati in KiCad.
+An analog modular synthesizer project inspired by the architecture of classic
+synthesizers, including those in the Moog tradition. It grew out of a personal
+project I worked on between 1978 and 1980; the schematics preserve that idea
+and have since been collected and redrawn in KiCad.
 
-Il repository contiene la documentazione elettronica del progetto: uno schema
-principale gerarchico, gli schemi dei singoli moduli, un progetto PCB e il
-netlist. Non contiene firmware o software per generare il suono.
+The repository contains the project's electronic design documentation: a
+hierarchical top-level schematic, individual module schematics, a PCB project,
+and a netlist.
 
-## Moduli
+## Modules
 
-| Modulo | Funzione |
+| Module | Function |
 | --- | --- |
-| **VCO** | Oscillatore controllato in tensione: genera il segnale di base. |
-| **VCF** | Filtro controllato in tensione, indicato nello schema come filtro PAiA 4730. |
-| **VCA** | Amplificatore controllato in tensione: regola il livello del segnale. |
-| **ADSR** | Generatore d'inviluppo per articolare nel tempo il suono. |
-| **LFO** | Oscillatore a bassa frequenza per modulazioni lente. |
-| **Generatore di rumore** | Sorgente di rumore per ulteriori timbri e modulazioni. |
-| **Mixer audio** | Somma le sorgenti audio. |
-| **Encoder per tastiera** | Schema per l'interfaccia di una tastiera musicale a 49 tasti. |
+| **VCO** | Voltage-controlled oscillator: generates the basic signal. |
+| **VCF** | Voltage-controlled filter, identified in the schematic as the PAiA 4730 filter. |
+| **VCA** | Voltage-controlled amplifier: controls the signal level. |
+| **ADSR** | Envelope generator for shaping the sound over time. |
+| **LFO** | Low-frequency oscillator for slow modulation. |
+| **Noise generator** | Noise source for additional timbres and modulation. |
+| **Audio mixer** | Combines audio sources. |
+| **Keyboard encoder** | Schematic for a 49-key musical keyboard interface. |
 
-I moduli sono organizzati nello schema principale [`analog_synth.kicad_sch`](analog_synth.kicad_sch);
-ogni circuito ha anche il proprio schema separato. I nomi dei file dei moduli
-corrispondono alle sigle riportate nella tabella.
+The modules are organized in the main schematic
+[`analog_synth.kicad_sch`](analog_synth.kicad_sch); each circuit also has its
+own separate schematic. Module filenames correspond to the names in the table.
 
-## Aprire il progetto
+## Opening the project
 
-Apri [`analog_synth.kicad_pro`](analog_synth.kicad_pro) con KiCad per accedere
-al progetto, allo schema gerarchico e al PCB [`analog_synth.kicad_pcb`](analog_synth.kicad_pcb).
-È possibile aprire direttamente anche il file dello schema principale.
+Open [`analog_synth.kicad_pro`](analog_synth.kicad_pro) in KiCad to access the
+project, hierarchical schematic, and PCB
+[`analog_synth.kicad_pcb`](analog_synth.kicad_pcb). You can also open the main
+schematic file directly.
 
-## Stato del progetto
+## Project status
 
-Gli schemi documentano l'architettura e i circuiti, ma il repository non
-specifica lo stato di realizzazione o collaudo dell'hardware. Prima di
-costruire o alimentare i circuiti, verifica schemi, netlist, footprint,
-componenti e tensioni richieste.
+The schematics document the architecture and circuits, but the repository
+does not specify whether the hardware has been built or tested. Before building
+or powering the circuits, verify the schematics, netlist, footprints,
+components, and required voltages.
 
-## Licenza
+## License
 
-Il progetto è distribuito secondo i termini della licenza GNU GPL versione 3;
-consulta [`LICENSE`](LICENSE) per il testo completo.
+The project is distributed under the GNU GPL version 3; see [`LICENSE`](LICENSE)
+for the full text.
